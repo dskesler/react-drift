@@ -33,7 +33,7 @@ export default class DriftApp extends React.Component {
   render() {
     return (
       <Frame>
-        <Carousel showIndex={this.state.showIndex} nav={this.renderNav()} width={configStyles.imageWidth}>
+      <Carousel showIndex={this.state.showIndex} nav={this.renderNav()} width={640}>
           <Slide image={require('./images/1.jpg')} title="Imperial Mockery">
             In a show of defiance, rebels have again made mockery of the majesty that is service to the Empire.
             These objects were immediately removed from the reflecting pool in Coruscant's Central Square when found
@@ -54,8 +54,8 @@ export default class DriftApp extends React.Component {
           <Slide image={require('./images/5.jpg')} title="The Wiles of the Forest">
             After a number of nervous breakdowns, Empire personnel officers are investigating the possibility
             rotating troopers stationed on the forest moons of Endor after several rotations.
-          </Slide>
-        </Carousel>
+          </Slide>       
+          </Carousel>
       </Frame>
     )
   }
