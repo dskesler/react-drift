@@ -1,7 +1,8 @@
 import React from 'react'
-import styleable from 'react-styleable'
+//import styleable from 'react-styleable'
+//mport css from './carousel.css'
 
-import css from './carousel.css'
+import styles from './carousel-styles';
 
 const { node, number } = React.PropTypes
 
@@ -32,4 +33,4 @@ Carousel.propTypes = {
   width: number
 }
 
-export default styleable(css)(Carousel)
+export default Carousel;
