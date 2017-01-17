@@ -5,6 +5,5 @@ export default{
         position: 'relative',
         overflow: 'hidden',
         height: config.imageHeight
-
     }
 }
